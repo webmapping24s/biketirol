@@ -66,4 +66,5 @@ let controlElevation = L.control.elevation({
 }).addTo(map);
 controlElevation.load("data/etappe7.gpx");
 
-console.log(ETAPPEN);
+let pulldown = document.querySelector("#pulldown");
+console.log("Pulldown: " , pulldown);
