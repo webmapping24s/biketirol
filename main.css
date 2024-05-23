@@ -65,3 +65,8 @@ footer nav {
     border-radius: 10px;
     margin-right: 0.5em;
 }
+
+#profile {
+    margin-top: 0.3em;
+    border: 1px solid gray;
+}
