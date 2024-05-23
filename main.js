@@ -81,3 +81,10 @@ pulldown.onchange = function(evt) {
     let url = `https://${username}.github.io/biketirol`;
     window.location.href = url;
 }
+
+// can you give me the code for a leaflet minimap
+new L.Control.MiniMap(L.tileLayer("https://wmts.kartetirol.at/gdi_summer/{z}/{x}/{y}.png", {
+    attribution: `Datenquelle: <a href="https://www.data.gv.at/katalog/dataset/land-tirol_elektronischekartetirol">eGrundkarte Tirol</a>`
+}), {
+    toggleDisplay: true,
+}).addTo(map);
